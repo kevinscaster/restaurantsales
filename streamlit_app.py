@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 #----------Import Data----------#
 #import data
-df = pd.read_csv('/Users/kevin.caster/Downloads/streamlit_dashboard/restaurant_sales.csv')
+df = pd.read_csv('restaurant_sales.csv')
 
 
 #----------Initial Data Wrangling----------#
